@@ -8,6 +8,14 @@ function App() {
           Libreta Invisible
         </p>
       </header>
+      <menubar >
+        <button style={{marginRight: "20px"}}>Agregar</button>
+        <input 
+          type="text"
+          placeholder="buscar notas..."
+          className="buscar" style={{marginRight: "20px"}}></input>
+        <button>Filtrar</button>
+      </menubar>
     </div>
   );
 }
